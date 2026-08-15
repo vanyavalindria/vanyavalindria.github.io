@@ -1,0 +1,177 @@
+[
+  {
+    "title": "White Matter Microstructure Differences Between Congenital and Acquired Hearing Loss Patients Using Diffusion Tensor Imaging (DTI) and Machine Learning",
+    "authors": "F K Kameela, F M Putranto, P A Yusuf, A Pujitresnani, V V Valindria, ...",
+    "venue": "Computers 14 (8), 303",
+    "year": "2025",
+    "type": "Journal"
+  },
+  {
+    "title": "Hybrid Vision Transformer and Convolutional Neural Network for Multi-Class and Multi-Label Classification of Tuberculosis Anomalies on Chest X-Ray",
+    "authors": "R Yulvina, S A Putra, M Rizkinia, A Pujitresnani, E D Tenda, R E Yunus, ...",
+    "venue": "Computers 13 (Machine Learning for Healthcare), 343",
+    "year": "2024",
+    "type": "Journal"
+  },
+  {
+    "title": "Stroke Prognostication in Patients Treated with Thrombolysis Using Random Forest",
+    "authors": "D T Reyhan Eddy Yunus, Prijo Sidipratomo, Aria Kekalih, Wisnu Jatmiko, Jacub ...",
+    "venue": "The Open Neuroimaging Journal 17",
+    "year": "2024",
+    "type": "Journal"
+  },
+  {
+    "title": "Joint estimation of relaxation and diffusion tissue parameters for prostate cancer with relaxation-VERDICT MRI",
+    "authors": "M Palombo, V Valindria, S Singh, E Chiou, F Giganti, H Pye, H C Whitaker, ...",
+    "venue": "Scientific Reports 13 (1), 2999",
+    "year": "2023",
+    "type": "Journal"
+  },
+  {
+    "title": "Approximate Computing",
+    "authors": "W Lombardi",
+    "venue": "Springer International Publishing",
+    "year": "2022",
+    "type": "Book"
+  },
+  {
+    "title": "Differentiating false positive lesions from clinically significant cancer and normal prostate tissue using VERDICT MRI and other diffusion models",
+    "authors": "S Sen, V Valindria, P J Slator, H Pye, A Grey, A Freeman, C Moore, ...",
+    "venue": "Diagnostics 12 (7), 1631",
+    "year": "2022",
+    "type": "Journal"
+  },
+  {
+    "title": "Verdict-MRI analysis of false positives in prostate mp-MRI",
+    "authors": "S Sen, V Valindria, H Pye, A Grey, A Haider, A Freeman, C Moore, ...",
+    "venue": "Proceedings of the 31st Annual Meeting of ISMRM 926",
+    "year": "2022",
+    "type": "Conference"
+  },
+  {
+    "title": "Synthesizing VERDICT maps from standard DWI data using GANs",
+    "authors": "E Chiou, V Valindria, F Giganti, S Punwani, I Kokkinos, E Panagiotaki",
+    "venue": "International Workshop on Computational Diffusion MRI, 58\u201367",
+    "year": "2021",
+    "type": "Conference"
+  },
+  {
+    "title": "Joint estimation of relaxation and diffusion tissue parameters for prostate cancer grading with relaxation-VERDICT MRI",
+    "authors": "M Palombo, V Valindria, S Singh, E Chiou, F Giganti, H Pye, H C Whitaker, ...",
+    "venue": "medRxiv, 2021.06.24.21259440",
+    "year": "2021",
+    "type": "Preprint"
+  },
+  {
+    "title": "Non-invasive Gleason Score Classification with VERDICT-MRI",
+    "authors": "V Valindria, S Singh, E Chiou, T Mertzanidou, B Kanber, S Punwani, ...",
+    "venue": "29th Annual Meeting of ISMRM, 4120",
+    "year": "2021",
+    "type": "Conference"
+  },
+  {
+    "title": "Synthetic Q-Space Learning with Deep Regression Networks for Prostate Cancer Characterisation with VERDICT",
+    "authors": "V Valindria, E Chiou, M Palombo, S Singh, S Punwani, E Panagiotaki",
+    "venue": "International Symposium on Biomedical Imaging (ISBI)",
+    "year": "2021",
+    "type": "Conference"
+  },
+  {
+    "title": "Automated quality control in image segmentation: application to the UK Biobank cardiovascular magnetic resonance imaging study",
+    "authors": "R Robinson, V V Valindria, W Bai, O Oktay, B Kainz, H Suzuki, ...",
+    "venue": "Journal of Cardiovascular Magnetic Resonance 21 (1), 18",
+    "year": "2019",
+    "type": "Journal"
+  },
+  {
+    "title": "Machine learning for analysing whole-body scans",
+    "authors": "V Valindria",
+    "venue": "Imperial College London",
+    "year": "2019",
+    "type": "Thesis"
+  },
+  {
+    "title": "Small organ segmentation in whole-body MRI using a two-stage FCN and weighting schemes",
+    "authors": "V V Valindria, I Lavdas, J Cerrolaza, E O Aboagye, A G Rockall, D Rueckert, ...",
+    "venue": "International workshop on machine learning in medical imaging, 346\u2013354",
+    "year": "2018",
+    "type": "Conference"
+  },
+  {
+    "title": "Real-time prediction of segmentation quality",
+    "authors": "R Robinson, O Oktay, W Bai, V V Valindria, M M Sanghvi, N Aung, ...",
+    "venue": "International Conference on Medical Image Computing and Computer-Assisted ...",
+    "year": "2018",
+    "type": "Conference"
+  },
+  {
+    "title": "Domain Adaptation for MRI Organ Segmentation using Reverse Classification Accuracy",
+    "authors": "V V Valindria, I Lavdas, W Bai, K Kamnitsas, E O Aboagye, A G Rockall, ...",
+    "venue": "International Conference on Medical Imaging with Deep Learning (MIDL) 2018",
+    "year": "2018",
+    "type": "Conference"
+  },
+  {
+    "title": "Subject-level prediction of segmentation failure using real-time convolutional neural nets",
+    "authors": "R Robinson, O Oktay, W Bai, V V Valindria, M M Sanghvi, N Aung, ...",
+    "venue": "Conference paper",
+    "year": "2018",
+    "type": "Conference"
+  },
+  {
+    "title": "Multi-Modal Learning from Unpaired Images: Application to Multi-Organ Segmentation in CT and MRI",
+    "authors": "V Valindria, N Pawlowski, M Rajchl, I Lavdas, E O Aboagye, A Rockall, ...",
+    "venue": "IEEE WACV (Winter Conference of Applications in Computer Vision)",
+    "year": "2018",
+    "type": "Conference"
+  },
+  {
+    "title": "Automatic quality control of cardiac MRI segmentation in large-scale population imaging",
+    "authors": "R Robinson, V V Valindria, W Bai, H Suzuki, P M Matthews, C Page, ...",
+    "venue": "International Conference on Medical Image Computing and Computer-Assisted ...",
+    "year": "2017",
+    "type": "Conference"
+  },
+  {
+    "title": "Reverse classification accuracy: predicting segmentation performance in the absence of ground truth",
+    "authors": "V V Valindria, I Lavdas, W Bai, K Kamnitsas, E O Aboagye, A G Rockall, ...",
+    "venue": "IEEE Transactions on Medical Imaging 36 (8), 1597\u20131606",
+    "year": "2017",
+    "type": "Journal"
+  },
+  {
+    "title": "Automatic evaluation of the peri-infarct area of myocardial infarction from delayed enhancement MRI",
+    "authors": "A Lalande, V V Valindria, M Angue, N Vignon, A Cochet, F Brunotte",
+    "venue": "European Society for Magnetic Resonance in Medicine and Biology (ESMRMB), 123",
+    "year": "2012",
+    "type": "Conference"
+  },
+  {
+    "title": "Automatic quantification of myocardial infarction from delayed enhancement MRI",
+    "authors": "V V Valindria, M Angue, N Vignon, P M Walker, A Cochet, A Lalande",
+    "venue": "2011 Seventh International Conference on Signal Image Technology & Internet ...",
+    "year": "2011",
+    "type": "Conference"
+  },
+  {
+    "title": "Image processing in retinal angiography: extracting angiographical features without the requirement of contrast agents",
+    "authors": "T Mengko",
+    "venue": "",
+    "year": "",
+    "type": "Other"
+  },
+  {
+    "title": "Automated Fluorescence as a System to Assist the Diagnosis of Retinal Blood Vessel Leakage",
+    "authors": "V V Valindria, T L R Mengko, I Sovani",
+    "venue": "13th International Conference on Biomedical Engineering: ICBME 2008, 3\u20136",
+    "year": "2009",
+    "type": "Conference"
+  },
+  {
+    "title": "Benchmarking Clinical Data Heterogeneity in Multi-Center Multimodal Stroke Severity Prediction Across Indonesian Hospitals",
+    "authors": "A T Wijatmiko, A Juwita, V Valindria",
+    "venue": "",
+    "year": "2026",
+    "type": "Preprint / Working paper"
+  }
+]

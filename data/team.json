@@ -1,0 +1,34 @@
+{
+  "current": [
+    {
+      "name": "Evan Tanuwidjaya",
+      "role": "PhD Student",
+      "supervision": "Co-supervision"
+    },
+    {
+      "name": "Helena",
+      "role": "PhD Student",
+      "supervision": "Co-supervision"
+    },
+    {
+      "name": "Anantha",
+      "role": "Master's Student",
+      "supervision": "Main supervision"
+    },
+    {
+      "name": "Retno",
+      "role": "Master's Student",
+      "supervision": "Main supervision"
+    }
+  ],
+  "alumni": [
+    {
+      "name": "Adrian",
+      "role": "Master's Student"
+    },
+    {
+      "name": "Aileen Velisha",
+      "role": "Master's Student"
+    }
+  ]
+}
