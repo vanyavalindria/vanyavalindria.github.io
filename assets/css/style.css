@@ -1,1 +1,361 @@
-*{box-sizing:border-box}body{margin:0;font-family:Inter,Arial,sans-serif;color:#172536;background:#fff;line-height:1.65}header{position:sticky;top:0;background:rgba(255,255,255,.96);border-bottom:1px solid #e7edf2;z-index:5}.nav{max-width:1180px;margin:auto;padding:16px 28px;display:flex;align-items:center;gap:24px}.brand{font-weight:800;letter-spacing:.08em;color:#132c46;text-decoration:none;white-space:nowrap}nav{margin-left:auto;display:flex;gap:18px;flex-wrap:wrap}nav a{font-size:.9rem;color:#536576;text-decoration:none}nav a.active,nav a:hover{color:#183f61;font-weight:700}.menu{display:none;margin-left:auto;border:0;background:none;font-size:1.4rem}main{max-width:1100px;margin:auto;padding:58px 28px 80px}.hero{min-height:62vh;display:grid;grid-template-columns:1.3fr .7fr;align-items:center;gap:60px}.eyebrow{font-size:.78rem;letter-spacing:.16em;color:#52708a;font-weight:700}.hero h1{font-size:clamp(2.8rem,7vw,5.7rem);line-height:1.02;margin:12px 0;color:#102d49}.hero p{font-size:1.2rem;max-width:700px;color:#566776}.portrait{height:380px;border-radius:24px;background:linear-gradient(145deg,#dfeaf1,#f7fafc);display:grid;place-items:center;color:#6c8092;font-weight:700;letter-spacing:.12em}.button{display:inline-block;background:#173f61;color:white;padding:12px 18px;border-radius:7px;text-decoration:none;margin:8px 8px 0 0}.button.light{background:#eef3f6;color:#173f61}.section{margin:30px 0 56px}.section h1{font-size:clamp(2.2rem,5vw,4rem);line-height:1.1;color:#102d49}.section h2{color:#183f61;margin-top:38px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}.card{border:1px solid #e1e9ef;border-radius:12px;padding:20px;background:#fff}.card h3{margin:0 0 6px;color:#183f61;line-height:1.3}.muted{color:#71808d}.avatar{height:190px;background:#edf3f6;border-radius:9px;display:grid;place-items:center;color:#789;font-weight:700;letter-spacing:.1em;margin-bottom:15px}.pub{padding:22px 0;border-bottom:1px solid #e5ebef}.pub h3{margin:0 0 5px;color:#183f61;font-size:1.12rem;line-height:1.35}.pub p{margin:2px 0;color:#657583}.pub .meta{font-size:.9rem}.tag{display:inline-block;background:#edf3f6;color:#315a78;border-radius:99px;padding:3px 9px;font-size:.76rem;font-weight:700;margin-right:6px}.search{width:100%;padding:15px 17px;border:1px solid #ccd9e2;border-radius:8px;font-size:1rem;margin:16px 0}.notice{background:#f1f6f9;border-left:4px solid #527a98;padding:16px 18px;border-radius:6px}.timeline{border-left:2px solid #d7e2e9;padding-left:22px}.timeline .item{margin:0 0 24px}.links a{color:#245879;text-decoration:none}footer{border-top:1px solid #e7edf2;padding:28px;text-align:center;color:#75828d;font-size:.9rem}@media(max-width:780px){.hero{grid-template-columns:1fr;gap:30px}.portrait{height:280px}.menu{display:block}nav{display:none;width:100%;padding-top:10px}nav.open{display:flex;flex-direction:column;gap:10px}.nav{flex-wrap:wrap}.brand{font-size:.85rem}main{padding:38px 20px 60px}}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  color: #172536;
+  background: #fff;
+  line-height: 1.65;
+}
+
+/* =========================
+   HEADER & NAVIGATION
+========================= */
+
+header {
+  position: sticky;
+  top: 0;
+  background: rgba(255, 255, 255, 0.96);
+  border-bottom: 1px solid #e7edf2;
+  z-index: 5;
+}
+
+.nav {
+  max-width: 1180px;
+  margin: auto;
+  padding: 16px 28px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.brand {
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: #132c46;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+nav {
+  margin-left: auto;
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  font-size: 0.9rem;
+  color: #536576;
+  text-decoration: none;
+}
+
+nav a.active,
+nav a:hover {
+  color: #183f61;
+  font-weight: 700;
+}
+
+.menu {
+  display: none;
+  margin-left: auto;
+  border: 0;
+  background: none;
+  font-size: 1.4rem;
+}
+
+
+/* =========================
+   MAIN CONTENT
+========================= */
+
+main {
+  max-width: 1100px;
+  margin: auto;
+  padding: 58px 28px 80px;
+}
+
+
+/* =========================
+   HERO / HOME
+========================= */
+
+.hero {
+  min-height: 62vh;
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  align-items: center;
+  gap: 60px;
+}
+
+.eyebrow {
+  font-size: 0.78rem;
+  letter-spacing: 0.16em;
+  color: #52708a;
+  font-weight: 700;
+}
+
+.hero h1 {
+  font-size: clamp(2.8rem, 7vw, 5.7rem);
+  line-height: 1.02;
+  margin: 12px 0;
+  color: #102d49;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  color: #566776;
+}
+
+
+/* =========================
+   PROFILE PHOTO
+========================= */
+
+.portrait {
+  width: 220px;
+  height: 275px;
+  border-radius: 16px;
+  overflow: hidden;
+  margin: 0 auto;
+  background: #f7fafc;
+}
+
+.portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+.button {
+  display: inline-block;
+  background: #173f61;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 7px;
+  text-decoration: none;
+  margin: 8px 8px 0 0;
+}
+
+.button.light {
+  background: #eef3f6;
+  color: #173f61;
+}
+
+
+/* =========================
+   SECTIONS
+========================= */
+
+.section {
+  margin: 30px 0 56px;
+}
+
+.section h1 {
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  line-height: 1.1;
+  color: #102d49;
+}
+
+.section h2 {
+  color: #183f61;
+  margin-top: 38px;
+}
+
+
+/* =========================
+   GRID & CARDS
+========================= */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 18px;
+}
+
+.card {
+  border: 1px solid #e1e9ef;
+  border-radius: 12px;
+  padding: 20px;
+  background: #fff;
+}
+
+.card h3 {
+  margin: 0 0 6px;
+  color: #183f61;
+  line-height: 1.3;
+}
+
+.muted {
+  color: #71808d;
+}
+
+
+/* =========================
+   TEAM AVATAR
+========================= */
+
+.avatar {
+  height: 190px;
+  background: #edf3f6;
+  border-radius: 9px;
+  display: grid;
+  place-items: center;
+  color: #789;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-bottom: 15px;
+}
+
+
+/* =========================
+   PUBLICATIONS
+========================= */
+
+.pub {
+  padding: 22px 0;
+  border-bottom: 1px solid #e5ebef;
+}
+
+.pub h3 {
+  margin: 0 0 5px;
+  color: #183f61;
+  font-size: 1.12rem;
+  line-height: 1.35;
+}
+
+.pub p {
+  margin: 2px 0;
+  color: #657583;
+}
+
+.pub .meta {
+  font-size: 0.9rem;
+}
+
+.tag {
+  display: inline-block;
+  background: #edf3f6;
+  color: #315a78;
+  border-radius: 99px;
+  padding: 3px 9px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  margin-right: 6px;
+}
+
+.search {
+  width: 100%;
+  padding: 15px 17px;
+  border: 1px solid #ccd9e2;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin: 16px 0;
+}
+
+
+/* =========================
+   NOTICE / HIGHLIGHT
+========================= */
+
+.notice {
+  background: #f1f6f9;
+  border-left: 4px solid #527a98;
+  padding: 16px 18px;
+  border-radius: 6px;
+}
+
+
+/* =========================
+   TIMELINE
+========================= */
+
+.timeline {
+  border-left: 2px solid #d7e2e9;
+  padding-left: 22px;
+}
+
+.timeline .item {
+  margin: 0 0 24px;
+}
+
+
+/* =========================
+   LINKS
+========================= */
+
+.links a {
+  color: #245879;
+  text-decoration: none;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+  border-top: 1px solid #e7edf2;
+  padding: 28px;
+  text-align: center;
+  color: #75828d;
+  font-size: 0.9rem;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 780px) {
+
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .portrait {
+    width: 180px;
+    height: 225px;
+    margin: 0 auto;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  nav {
+    display: none;
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  nav.open {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+  }
+
+  .brand {
+    font-size: 0.85rem;
+  }
+
+  main {
+    padding: 38px 20px 60px;
+  }
+
+}
