@@ -256,6 +256,179 @@ main {
 }
 
 /* =========================
+   GRANTS PAGE
+========================= */
+
+.grants-section {
+  max-width: 1050px;
+}
+
+.section-intro {
+  max-width: 760px;
+  color: #647482;
+  margin-bottom: 38px;
+  font-size: 1.05rem;
+}
+
+
+/* Grants container */
+
+.grants-list {
+  margin-top: 28px;
+  border-top: 1px solid #dfe7ed;
+}
+
+
+/* Individual grant */
+
+.grant-item {
+  display: grid;
+  grid-template-columns: 155px minmax(0, 1fr);
+  gap: 38px;
+
+  padding: 26px 28px;
+
+  border-bottom: 1px solid #dfe7ed;
+
+  transition: background 0.2s ease;
+}
+
+.grant-item:hover {
+  background: #f8fafb;
+}
+
+
+/* Year badge */
+
+.grant-year {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: fit-content;
+  min-width: 112px;
+
+  padding: 6px 16px;
+
+  background: #183f61;
+
+  color: #ffffff;
+
+  border-radius: 5px;
+
+  font-size: 0.9rem;
+  font-weight: 700;
+
+  letter-spacing: 0.02em;
+
+  box-shadow: 0 3px 8px rgba(23, 63, 97, 0.18);
+}
+
+
+/* Grant content */
+
+.grant-content {
+  min-width: 0;
+}
+
+.grant-content h2 {
+  margin: 0 0 14px;
+
+  color: #172536;
+
+  font-size: 1.28rem;
+  line-height: 1.35;
+
+  font-weight: 750;
+}
+
+
+/* Grant information */
+
+.grant-details {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.grant-details p {
+  margin: 0;
+}
+
+
+/* Funding organisation */
+
+.grant-funder {
+  color: #526576;
+
+  font-size: 1.05rem;
+}
+
+.grant-icon {
+  display: inline-block;
+
+  width: 24px;
+
+  color: #527a98;
+
+  font-size: 1.1rem;
+}
+
+
+/* Role */
+
+.grant-role {
+  color: #71808d;
+
+  font-size: 0.95rem;
+
+  padding-left: 28px;
+}
+
+
+/* Amount */
+
+.grant-amount {
+  color: #183f61;
+
+  font-weight: 700;
+
+  font-size: 1rem;
+
+  padding-left: 28px;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 780px) {
+
+  .grant-item {
+    grid-template-columns: 1fr;
+
+    gap: 16px;
+
+    padding: 24px 0;
+  }
+
+  .grant-year {
+    min-width: 105px;
+  }
+
+  .grant-content h2 {
+    font-size: 1.1rem;
+  }
+
+  .grant-funder {
+    font-size: 1rem;
+  }
+
+}
+
+/* =========================
    PUBLICATIONS
 ========================= */
 
