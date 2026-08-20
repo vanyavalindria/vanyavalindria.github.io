@@ -473,6 +473,110 @@ main {
   margin: 16px 0;
 }
 
+/* =========================
+   TEAM PAGE
+========================= */
+
+.team-section {
+  max-width: 1000px;
+}
+
+.team-group {
+  margin-top: 45px;
+}
+
+.alumni-group {
+  margin-top: 70px;
+}
+
+
+/* Section badge */
+
+.team-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 115px;
+
+  padding: 7px 18px;
+
+  background: #183f61;
+  color: #ffffff;
+
+  border-radius: 5px;
+
+  font-size: 0.85rem;
+  font-weight: 700;
+
+  letter-spacing: 0.08em;
+
+  box-shadow: 0 3px 8px rgba(23, 63, 97, 0.18);
+
+  margin-bottom: 18px;
+}
+
+
+/* Team list */
+
+.team-list {
+  border-top: 1px solid #dfe7ed;
+}
+
+
+/* Individual member */
+
+.team-member {
+  padding: 20px 10px;
+
+  border-bottom: 1px solid #dfe7ed;
+
+  transition: background 0.2s ease;
+}
+
+.team-member:hover {
+  background: #f8fafb;
+}
+
+
+/* Member info */
+
+.team-member-content h2 {
+  margin: 0 0 3px;
+
+  color: #183f61;
+
+  font-size: 1.2rem;
+
+  line-height: 1.3;
+}
+
+.team-member-content p {
+  margin: 0;
+
+  color: #6b7b87;
+
+  font-size: 0.98rem;
+}
+
+
+/* Mobile */
+
+@media (max-width: 780px) {
+
+  .team-member {
+    padding: 17px 5px;
+  }
+
+  .team-member-content h2 {
+    font-size: 1.05rem;
+  }
+
+  .team-member-content p {
+    font-size: 0.9rem;
+  }
+
+}
 
 /* =========================
    NOTICE / HIGHLIGHT
