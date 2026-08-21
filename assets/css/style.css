@@ -800,6 +800,231 @@ main {
 }
 
 /* =========================
+   RESEARCH & PROJECTS PAGE
+========================= */
+
+.research-page {
+  max-width: 1000px;
+}
+
+.research-intro {
+  max-width: 780px;
+}
+
+
+/* =========================
+   PROJECT BLOCK
+========================= */
+
+.research-project {
+  margin-top: 70px;
+}
+
+.research-project:first-of-type {
+  margin-top: 45px;
+}
+
+
+/* Navy project title */
+
+.research-project-title {
+  display: inline-flex;
+
+  background: #183f61;
+  color: #ffffff;
+
+  padding: 10px 20px;
+
+  border-radius: 5px;
+
+  font-size: 0.95rem;
+  font-weight: 700;
+
+  line-height: 1.45;
+
+  letter-spacing: 0.02em;
+
+  box-shadow: 0 3px 8px rgba(23, 63, 97, 0.16);
+
+  margin-bottom: 28px;
+}
+
+
+/* =========================
+   PROJECT CONTENT
+========================= */
+
+.research-project-content {
+  display: grid;
+
+  grid-template-columns: 1.25fr 0.75fr;
+
+  gap: 55px;
+
+  align-items: center;
+}
+
+
+/* Alternate layout */
+
+.research-project-reverse {
+  grid-template-columns: 0.75fr 1.25fr;
+}
+
+.research-project-reverse .research-project-text {
+  order: 2;
+}
+
+.research-project-reverse .research-image-placeholder {
+  order: 1;
+}
+
+
+/* =========================
+   TEXT
+========================= */
+
+.research-project-text p {
+  margin-top: 0;
+  margin-bottom: 18px;
+
+  color: #566776;
+
+  font-size: 0.98rem;
+
+  line-height: 1.75;
+}
+
+
+/* =========================
+   IMAGE PLACEHOLDER
+========================= */
+
+.research-image-placeholder {
+  width: 100%;
+
+  min-height: 280px;
+
+  border-radius: 12px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #dfeaf1,
+      #f7fafc
+    );
+
+  border: 1px solid #e1e9ef;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.research-image-placeholder div {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 5px;
+}
+
+.research-image-placeholder strong {
+  color: #315a78;
+
+  font-size: 0.9rem;
+
+  letter-spacing: 0.08em;
+}
+
+.research-image-placeholder span {
+  color: #8a99a5;
+
+  font-size: 0.72rem;
+
+  letter-spacing: 0.12em;
+}
+
+
+/* =========================
+   RESEARCH TAGS
+========================= */
+
+.research-tags {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 7px;
+
+  margin-top: 25px;
+}
+
+.research-tags span {
+  display: inline-flex;
+
+  align-items: center;
+
+  background: #edf3f6;
+
+  color: #315a78;
+
+  border-radius: 99px;
+
+  padding: 4px 10px;
+
+  font-size: 0.75rem;
+
+  font-weight: 600;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 780px) {
+
+  .research-project {
+    margin-top: 55px;
+  }
+
+  .research-project-title {
+    display: block;
+
+    font-size: 0.88rem;
+
+    padding: 10px 16px;
+
+    margin-bottom: 22px;
+  }
+
+  .research-project-content,
+  .research-project-reverse {
+    grid-template-columns: 1fr;
+
+    gap: 28px;
+  }
+
+  .research-project-reverse .research-project-text,
+  .research-project-reverse .research-image-placeholder {
+    order: initial;
+  }
+
+  .research-project-text p {
+    font-size: 0.93rem;
+  }
+
+  .research-image-placeholder {
+    min-height: 220px;
+  }
+
+}
+
+/* =========================
    NOTICE / HIGHLIGHT
 ========================= */
 
